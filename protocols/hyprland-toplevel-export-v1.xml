@@ -70,6 +70,7 @@
     </request>
 
     <!-- Version 2 -->
+    <!--
     <request name="capture_toplevel_with_wlr_toplevel_handle" since="2">
       <description summary="capture a toplevel">
         Same as capture_toplevel, but with a zwlr_foreign_toplevel_handle_v1 handle.
@@ -79,6 +80,7 @@
         summary="composite cursor onto the frame"/>
       <arg name="handle" type="object" interface="zwlr_foreign_toplevel_handle_v1" allow-null="false" summary="the zwlr_foreign_toplevel_handle_v1 handle of the toplevel to be captured"/>
     </request>
+    -->
     <!-- End Version 2 -->
   </interface>
 
