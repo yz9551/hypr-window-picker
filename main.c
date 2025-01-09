@@ -62,7 +62,7 @@ static void randname(char *buf) {
 static int create_shm_file() {
     int retries = 100;
     do {
-        char name[] = "/hypr_window_picker_shm-XXXXXX";
+        char name[] = "/hypr-window-picker-shm-XXXXXX";
         randname(name + sizeof(name) - 7);
         --retries;
         int shm_fd = shm_open(name, O_CREAT | O_EXCL | O_RDWR, 0600);
